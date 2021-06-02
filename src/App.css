@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+.Container-header{
+  padding: 20px 20px 20px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
+
+.Ironhack-logo {
+  height: 75px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.light-text {
+  font-size: 20px;
+  color: white;
+  margin-block-start: 4px;
+  margin-block-end: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 5.4vw;
+  color: white;
+  padding-right: 600px;
+  margin-block-start: 100px;
+  margin-block-end: 10px;
+}
+
+.Color-b {
+  background-color: #293243;
+  margin: 20px 20px 20px 20px;
+
+}
+
+.Container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.Page-header{
+  background-color: #293243;
+  padding: 55px 60px 0px 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: white;
+  padding: 20px 40px 20px 40px;
+  border-radius: 7px;
+  font-size: 22px;
+  font-weight: 800;
+  box-shadow: 4px 3px 4px -4px rgba(0,0,0,0.52);
+  border: 1px #ffffff solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#icon-section  {
+  display: flex;
+  padding: 30px 0px 50px 60px;
+}
+
+#icon-section > div {
+  margin-right: 100px;
+}
+
+#icon-section > div > img {
+  position: relative;
+  left: -10px;
+}
+
+.icon-page {
+  height: 110px;
 }

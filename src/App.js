@@ -1,24 +1,28 @@
 import logo from './logo.svg';
+import Logo from './comp/Logo.jsx';
+import Headertext from './comp/Headertext.jsx';
+import Inconsection from './comp/Iconsection.jsx';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div> 
+                <div className="Color-b"> 
+                    <div className="Container">
+                       <header className="Page-header">
+                         <Logo/>
+                         <Headertext/>
+                       </header>
+                    </div>
+                 </div>
+  
+                 <div className="Container">
+                    <Inconsection/>
+                 </div>
+
+        </div>     
+
   );
 }
 
